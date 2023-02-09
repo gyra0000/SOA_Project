@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+	
+		<button onClick = "logout()">Logout</button>
+		
+		
+		<h1>My books</h3>
+		
+        <ul id="myList"></ul>
+		
+		<form onsubmit="return addBook()">
+			<h3>Add new book</h3>
+    
+			<div>
+				<label>Title</label>
+				<input type="text" id="title" value="Harry Potter">
+			</div>
+			<div>
+				<label>Author  </label>
+				<input type="text" id="author"  value="J. K. Rowling">
+			</div>
+			
+			<button type="submit">Add book</button>
+		</form>
+		
+        <script src="bookList.js"></script>  
+		
+		
+    </body>
+</html>
